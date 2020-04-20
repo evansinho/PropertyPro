@@ -11,10 +11,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 li {
   list-style: none;
 }
@@ -57,7 +53,6 @@ header .nav-bar .nav-bar-title {
   font-family: 'Righteous', cursive;
   font-weight: 700;
   font-size: 1.5rem;
-  text-decoration: none;
   padding: 0.3rem 0 0 1rem;
 }
 
@@ -68,13 +63,12 @@ header .nav-bar ul li {
 header .nav-bar ul li a {
   font-size: 0.8rem;
   color: #fff;
-  text-decoration: none;
 }
 
 /* showcase */
 
 .showcase {
-  background: linear-gradient(to right, rgba(19, 1, 1, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to right, rgba(5, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('images/showcase_2.jpg') no-repeat center center/cover;
   height: 100vh;
 }
@@ -153,6 +147,10 @@ header .nav-bar ul li a {
 }
 
 /* footer */
+footer,
+.subscribe-input input {
+  background-color: #000;
+}
 
 .footer-middle {
   display: grid;
@@ -173,6 +171,29 @@ header .nav-bar ul li a {
   height: 25px;
 }
 
+.contact p {
+  font-size: .7rem ;
+}
+
+footer ul li {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+footer ul li a,
+header .nav-bar ul li a,
+header .nav-bar .nav-bar-title,
+.showcase a {
+  text-decoration: none;
+}
+
+footer .footer-logo {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  height:60px;
+  width:60px;
+}
+
 .copyright span {
-    font-size: .5rem;
+  font-size: 0.5rem;
 }
