@@ -1,0 +1,49 @@
+/* universal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* navigation bar */
+
+header {
+  background-color: #d4574a;
+  height: 50px;
+}
+
+header .nav-bar .nav-bar-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.3rem 0 0 1rem;
+}
+
+header .nav-bar ul li {
+  padding: 0.8rem;
+}
+
+header .nav-bar ul li a {
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* showcase */
+
