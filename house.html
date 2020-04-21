@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>PropertyPro</title>
+</head>
+
+<body>
+    <header class="bg-orange sticky-top">
+        <nav class="container nav-bar d-flex justify-content-between">
+            <a href="index.html" class="nav-bar-title text-white"><i class="fas fa-home text-white"></i> PropertyPro</a>
+            <ul class="d-flex align-item-center justify-content-center">
+                <li class="navbar-item"><a href="index.html" class="navbar-link"><i class="fas fa-home text-white"></i> <span>HOME</span></a></li>
+                <li class="navbar-item"><a href="house.html" class="navbar-link"><i class="fas fa-search text-white"></i> <span>HOUSES</span></a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-rss text-white"></i> <span>BLOG</span></a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-user text-white"></i> <span>ABOUT US</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="filer bg-grey-2 my-5 p-5">
+        <div class="container">
+            <h4 class="filter-header text-center pb-3 text-grey">Filter by Country, City, State, Type:</h4>
+            <div class="filter-container d-flex flex-wrap align-item-center justify-content-center">
+                <div class="filter-inputs pr-1 pb-1">
+                    <label class="small font-weight-bold pb-0" for="Country">COUNTRY:</label><br>
+                    <input type="text">
+                </div>
+                <div class="filter-inputs pr-1 pb-1">
+                    <label class="small font-weight-bold pb-0" for="City">CITY:</label><br>
+                    <input type="text">
+                </div>
+                <div class="filter-inputs pr-1 pb-1">
+                    <label class="small font-weight-bold pb-0" for="State">STATE:</label><br>
+                    <input type="text">
+                </div>
+                <div class="filter-inputs pr-1 pb-1">
+                    <label class="small font-weight-bold pb-0" for="Property-type">TYPE</label><br>
+                    <select class="py-1" name="type" required>
+                        <option disabled selected>Choose type</option>
+                        <option>BUNGALOW</option>
+						<option>1 BEDROOM</option>
+						<option>2 BEDROOM</option>
+						<option>3 BEDROOM</option>
+						<option>4 BEDROOM</option>
+						<option>5 BEDROOM</option>
+					</select>
+                </div>
+                <div class="filter-buttons pt-1">
+                    <button type="submit" class="text-white mt-4 btn-primary px-1">Search</button>
+                    <button type="submit" class="text-white mt-4 bg-yellow px-1">clear filter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search">
+        <h4 class="heading text-center">PROPERTY LISTINGS</h4>
+        <div class="container search-cover mb-5 mt-3">
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 1.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">14 lekki Roundabout, Lagos, Lagos state.</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">2 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/houe 2.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">9 ikorodu road, Calabar, Cross-River state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">1 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 4.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">2 Oyo Lane, Ibadan, Oyo state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">4 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 3.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">6 Admiral estate, Lagos, Lagos state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">5 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 5.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">103 Illupeju, Owerri, Imo state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">1 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 6.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">30 Oshodi Road, Lagos, Lagos state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">3 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 7.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">30 Oshodi Road, Lagos, Lagos state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">3 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 88.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">6 Admiral estate, Lagos, Lagos state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">5 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+            <a href="details.html">
+                <div class="property-card">
+                    <div class="image-cover">
+                        <img src="images/house 9.jpg" alt="card-img">
+                    </div>
+                    <h4 class="address">2 Oyo Lane, Lagos, Lagos state</h4>
+                    <h3 class="price bg-orange text-white py-1">25000/year</h3>
+                    <p class="type">4 <i class="fas fa-sm fa-bed"></i></p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <footer class="p-2">
+        <div class="container">
+            <ul class="footer-top d-flex flex-wrap py-3 align-item-center justify-content-center">
+                <li class="px-2 pt-3"><a href="#" class="text-white">HOME</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">SEARCH</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">ABOUT US</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">ADVERTISEMENT</a></li>
+                <li class="px-2 pt-3 footer-logo text-center"><i class="fas fa-home text-white"></i></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">FACEBOOK</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">TWITTER</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">BLOG</a></li>
+                <li class="px-2 pt-3"><a href="#" class="text-white">GOOGLE +</a></li>
+            </ul>
+            <div class="footer-middle">
+                <div class="subscribe text-center">
+                    <div class="subscribe-header pb-1">
+                        <h3 class="text-white footer-header">SUBSCRIBE</h3>
+                    </div>
+                    <div class="subscribe-input">
+                        <input type="text" placeholder="you@example.com" class="sub-input">
+                        <button type="submit" class="text-white px-1 py-0 bg-grey">send</button>
+                    </div>
+                </div>
+                <div class="contact text-center">
+                    <div class="contact-header pb-1">
+                        <h3 class="text-white footer-header">CONTACT</h3>
+                    </div>
+                    <p class="text-white small mb-0">Have a question or suggestion?</p>
+                    <p class="small text-orange">info@propertyPro.com</p>
+                </div>
+                <div class="about text-center">
+                    <div class="contact">
+                        <div class="contact-header pb-1">
+                            <h3 class="text-white footer-header">ABOUT</h3>
+                        </div>
+                        <p class="text-white">PropertyPro is an online platform that helps Nigerians with suitable
+                            houses for rent or buy by simply searching the property type,place, state etc <span
+                                class="text-orange">Learn more...</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bootom d-flex bg-bottom justify-content-between w-100">
+        <div class="social-links pl-3">
+            <span><i class="p-2 text-bottom fab fa-sm fa-facebook-square"></i></span>
+            <span><i class="p-2 text-bottom fab fa-sm fa-twitter"></i></span>
+            <span><i class="p-2 text-bottom fab fa-sm fa-instagram"></i></span>
+            <span><i class="p-2 text-bottom fab fa-sm fa-tumblr"></i></span>
+            <span><i class="p-2 text-bottom fab fa-sm fa-linkedin-in"></i></span>
+        </div>
+        <div class="copyright pt-2 pr-2">
+            <span class="text-bottom small">© PROPERTYPRO 2006–2020. ALL RIGHTS RESERVE. Made with <b
+                    class="text-orange">♥</b> in Nigeria.</span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
