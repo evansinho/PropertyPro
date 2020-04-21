@@ -4,7 +4,12 @@ This is the capstone project of the Microverse HTML & CSS curriculum. It makes u
 ## Check Video Link
 ![Description video]()
 
+## Homepage
 ![screenshot](images/snapshot.PNG)
+## House search
+![screenshot](images/snapshot2.PNG)
+## House details
+![screenshot](images/snapshot3.PNG)
 
 ## Built With
 
