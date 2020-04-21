@@ -4,7 +4,7 @@ This is the capstone project of the Microverse HTML & CSS curriculum. It makes u
 ## Check Video Link
 ![Description video]()
 
-![screenshot]()
+![screenshot](images/snapshot.PNG)
 
 ## Built With
 
