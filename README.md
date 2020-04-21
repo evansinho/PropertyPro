@@ -14,7 +14,7 @@ This is the capstone project of the Microverse HTML & CSS curriculum. It makes u
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/evansinho/PropertyPro/propertypro/index.html)
 
 ### Prerequisites
 
