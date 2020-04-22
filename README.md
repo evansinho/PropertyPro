@@ -1,9 +1,6 @@
 # PropertyPro
 This is the capstone project of the Microverse HTML & CSS curriculum. It makes use of float, flex and grid CSS display positioning styles. Also Bootstrap framework is mostly used. This capstone project is completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 
-## Check Video Link
-(https://www.loom.com/share/7af723fb81f145c8ac8743f1dc816a77)
-
 ## Homepage
 ![screenshot](images/snapshot.PNG)
 ## House search
