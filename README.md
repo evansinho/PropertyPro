@@ -63,4 +63,5 @@ Give a ⭐️ if you like this project!
 
  (https://www.behance.net/gallery/25563385/PatashuleKE)
 
-Design idea by [mathewn juguna](https://www.behance.net/mathewnjuguna)
+Design idea by [mathew Njuguna](https://www.behance.net/mathewnjuguna) and 
+[Sam Achola](https://www.behance.net/aweSam)
