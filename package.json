@@ -1,0 +1,24 @@
+{
+  "name": "PropertyPro",
+  "version": "1.0.0",
+  "description": "HTML/CSS capstone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evansinho/PropertyPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evansinho/PropertyPro/issues"
+  },
+  "homepage": "https://github.com/evansinho/PropertyPro#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}

@@ -1,0 +1,84 @@
+@media (max-width: 1024px) {
+  .search-cover {
+    display: block;
+  }
+
+  .property-card {
+    margin-bottom: 1.3rem;
+  }
+
+  .showcase-input {
+    width: 20rem;
+    height: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header ul li span {
+    display: none;
+  }
+
+  .showcase-title {
+    font-size: 1.5rem;
+  }
+
+  .section-3 {
+    display: block;
+  }
+
+  .section-3-container a {
+    font-size: 0.8rem;
+  }
+
+  .card-image {
+    margin-left: 20%;
+    width: 100px;
+    height: 100px;
+  }
+
+  footer .footer-logo {
+    display: none;
+  }
+
+  footer ul li {
+    border: none;
+  }
+
+  .footer-middle {
+    display: block;
+    text-align: center;
+  }
+
+  .subscribe,
+  .contact,
+  .about {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  header {
+    height: 70px;
+  }
+
+  header .nav-bar .nav-bar-title {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+  }
+
+  header nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .showcase-btn {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .showcase-input {
+    display: block;
+    width: 100%;
+  }
+}
