@@ -14,6 +14,9 @@ This is the capstone project of the Microverse HTML & CSS curriculum. It makes u
 - CSS,
 - Bootstrap
 
+## video
+(https://www.loom.com/share/7af723fb81f145c8ac8743f1dc816a77)
+
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/evansinho/PropertyPro/propertypro/index.html)
