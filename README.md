@@ -32,7 +32,7 @@ This is the capstone project of the Microverse HTML & CSS curriculum. It makes u
 
 ### Install
 
-- No istallation needed.
+- No installation needed.
 
 ### Usage
 
